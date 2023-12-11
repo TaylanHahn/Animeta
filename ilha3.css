@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: divertida;
+  src: url(FONTES\ TITULO/Carton_Six.ttf);
+}
+
+
+.logo {
+  width: 5em;
+  margin-bottom: -10;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100;
+  background-color: #b877a8;
+  overflow-x: hidden;
+
+}
+
+header {
+  background-color: #dbf1fa;
+  margin: 0.1px;
+  padding: 5px;
+  border: 5px solid #dbf1fa;
+  text-align: center;
+
+}
+
+nav {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.engrenagem {
+  width: 80px;
+}
+
+
+/* CAPA INICIO */
+.capa {
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2023/09/16/18/18/wallpaper-8257343_640.png);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.capa h1 {
+  font-family: divertida;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.capa h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  text-align: center;
+  font-size: 20px;
+}
+
+.inicio1 {
+  margin-left: 10em;
+  margin-right: 10em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+
+/* Fim Capa*/
+
+/* CARD INÍCIO  */
+.row {
+  margin-bottom: 5%;
+  margin-left: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(225, 201, 201, 0.22);
+  padding: 25px;
+  margin: 20px;
+  width: 200px;
+  transition: all 0.4s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.card p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.yellow1 {
+  background-color: #ffcc33;
+  border-left: 3px solid #ffcc33;
+}
+
+.yellow2 {
+  background-color: #ffcc33;
+  border-left: 3px solid #ffcc33;
+}
+
+.yellow3 {
+  background-color: #ffcc33;
+  border-left: 3px solid #ffcc33;
+}
+
+.yellow4 {
+  background-color: #ffcc33;
+  border-left: 3px solid #ffcc33;
+}
+
+.yellow5 {
+  background-color: #ffcc33;
+  border-left: 3px solid #ffcc33;
+}
+
+.image {
+  width: 30px;
+}
+
+/* FIM CARD*/
+
+/* INÍCIO FOTOS E ESCRITAS */
+.container {
+  max-width: 70em;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2em;
+}
+
+img {
+  border: 10px;
+  border-radius: 18px;
+  width: 60%;
+}
+
+.carrosel {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+  margin-bottom: 1em;
+  background: #ef406c;
+  border: 5px;
+  border-radius: 15px;
+}
+
+.carrosel h3 {
+  font-family: divertida;
+  margin-bottom: 2em;
+  font-size: 30px;
+}
+
+
+.carrosel p{
+  font-style: italic;
+  font-size: 23px;
+  margin-right: 70px;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* FIM FOTOS E ESCRITAS */
+
+footer {
+  display: flex;
+  width: 100vw;
+  height: 26vh;
+  background-color: #ef406c;
+}
+
+footer .logof{
+margin-top: 15px;
+margin-bottom: 15px;
+    width: 9em;
+    margin-right: 77%;
+  
+}
+
+.linkedin{
+margin-top: 15px;
+margin-bottom: 15px;
+justify-content: right;
+}
+
+.linkedin img{
+  width:9em;
+
+}
