@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: divertida;
+    src: url(Carton_Six.ttf);
+}
+
+body{
+    background: #efb810;
+    background: linear-gradient(32deg, #efb810 30%, #face4a 46%, #efb810 79%, #face4a 100%);
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ word-wrap: break-word;
+ overflow-wrap: break-word;
+}
+
+header{
+    background-color: #face4a;
+    margin: 0.1px;
+    padding: 10px;
+border: 5px solid #face4a;
+text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    font-size: 25px;
+}
+
+h1{
+    margin-bottom: 2px;
+    text-align: center;
+    font-family: divertida;
+    font-size: 100px;
+    color: rgb(230, 93, 116);
+    text-shadow: 2px 2px 2px #efb810;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    font-family: divertida;
+    font-size: 60px;
+    color: #efb810;
+    text-shadow: 2px 2px 1px  rgb(230, 93, 116);
+}
+
+h3{
+    text-align: center;
+    align-items: center;
+    font-family: divertida;
+    font-size: 60px;
+    color: #EDC2F2;
+    text-shadow: 3px 2px 1px #401C14;
+}
+
+h4{
+    text-align: center;
+    align-items: center;
+    font-family: divertida;
+    color: #401C14;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #EDC2F2;
+}
+
+.wrapper{
+    text-align: center;
+    background-image: url(https://wallpaperaccess.com/full/934489.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.contain p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 1px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 1px wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 39px;
+    margin-top: 30px;
+    }
+
+.imane{
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+max-width: 1100px;
+margin: auto;
+overflow: auto;
+padding: 0 2em;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+grid-template-columns: repeat(2, 1fr);
+gap: 2em;
+margin-bottom: 3em;
+}
+
+.card img{
+height: 260px;
+border-radius: 20px;
+}
+
+.card p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+footer{
+background-color: #face4a;
+text-align: center;
+display: flex;
+width: 100%;
+justify-content: space-between;
+}
+
+footer img{
+    margin-right: 70%;
+    width: 140px;
+}
+
+footer p{
+    font-family: divertida;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+}
+
+.paginainicial:hover{
+    opacity: 0.6;
+}
+
+.instagram:hover{
+    opacity: 0.6;
+}
